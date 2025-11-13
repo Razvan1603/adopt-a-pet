@@ -9,7 +9,7 @@ import jakarta.persistence.Id;
 public class Animal {
     @Id
     @GeneratedValue( strategy = GenerationType.IDENTITY)
-    private long id;
+    private Long id;
     private Type type;
     private int age;
     private Gender gender;
