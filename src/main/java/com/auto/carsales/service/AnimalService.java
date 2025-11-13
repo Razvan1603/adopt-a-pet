@@ -25,5 +25,9 @@ public class AnimalService {
        return repo.findById(id);
     }
 
+    public Animal addAnimal(Animal animal){
+      return  repo.save(animal);
+    }
+
 
 }
