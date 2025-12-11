@@ -30,5 +30,8 @@ public class AnimalService {
       return  repo.save(animal);
     }
 
+    public void deleteAnimal(Long id){
+        repo.deleteById(id);
+    }
 
 }
